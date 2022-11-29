@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <!-- STYLE -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <main class="main">
+    <div class="main-container container">
+      <div class="bg-part part"></div>
+
+      <div class="form-part part">
+        <div class="header">
+          <h4 class="header-small-text">Welcome back</h4>
+          <h1 class="header-title">Login to your account</h1>
+        </div>
+
+        <form class="form" action="https://echohtmlacademy.ru">
+          <div class="email">
+            <label>
+              Email
+              <br>
+              <input type="email" name="email" placeholder="enter your e-mail addres" required>
+            </label>
+          </div>
+
+          <div class="password">
+            <label>
+              Password
+              <br>
+              <input type="password" name="password" placeholder="enter your account password" required>
+            </label>
+          </div>
+
+          <div class="tools">
+            <label class="remember">
+              <input type="checkbox" name="remember">
+              Remember me
+            </label>
+
+            <a href="#" class="forgot-pass">
+              Forgot password?
+            </a>
+          </div>
+
+          <div class="login-btns">
+            <button class="login-btn">
+              Login now
+            </button>
+
+            <button class="google-btn">
+              <img src="./images/Google.svg" alt="google logo" class="svg">
+              Or sign-in with google
+            </button>
+          </div>
+        </form>
+
+        <div class="create-acc">
+          <p class="text">
+            Dont have an account? <a href="#" class="create-link">Join free today</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
